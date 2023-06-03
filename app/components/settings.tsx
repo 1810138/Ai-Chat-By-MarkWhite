@@ -368,7 +368,9 @@ export function Settings() {
             {checkingUpdate ? (
               <LoadingIcon />
             ) : hasNewVersion ? (
-              <Link href={UPDATE_URL} target="_blank" className="link">
+               //最上面这个是源码的
+              // <Link href={UPDATE_URL} target="_blank" className="link">
+              <Link href='https://github.com/1810138' target="_blank" className="link">
                 {Locale.Settings.Update.GoToUpdate}
               </Link>
             ) : (
