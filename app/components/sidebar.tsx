@@ -114,9 +114,8 @@ export function SideBar(props: { className?: string }) {
 
   return (
     <div
-      className={`${styles.sidebar} ${props.className} ${
-        shouldNarrow && styles["narrow-sidebar"]
-      }`}
+      className={`${styles.sidebar} ${props.className} ${shouldNarrow && styles["narrow-sidebar"]
+        }`}
     >
       <div className={styles["sidebar-header"]}>
         <div className={styles["sidebar-title"]}>ChatGPT Next</div>
@@ -174,9 +173,9 @@ export function SideBar(props: { className?: string }) {
             </Link>
           </div>
           <div className={styles["sidebar-action"]}>
-             {/* 上面的是原来源码的 */}
+            {/* 上面的是原来源码的 */}
             {/* <a href={REPO_URL} target="_blank"> */}
-            <a href='https://github.com/1810138' target="_blank">
+            <a href='https://qm.qq.com/cgi-bin/qm/qr?k=pps7-MRdJAo-63f39PBeFU4oVV4WiDrV&jump_from=webapi&authKey=qyEd6l0s9ZF7vWztbzmlMWO4n0cFfRDpNVAZaWdpdOTkoXzq/BPnYhKagD7+z3g9' target="_blank">
               <IconButton icon={<GithubIcon />} shadow />
             </a>
           </div>
