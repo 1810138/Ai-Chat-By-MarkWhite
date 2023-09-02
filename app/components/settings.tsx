@@ -371,7 +371,7 @@ export function Settings() {
                //最上面这个是源码的
               // <Link href={UPDATE_URL} target="_blank" className="link">
               // <Link href='https://github.com/1810138' target="_blank" className="link">
-                <Link href='https://qm.qq.com/cgi-bin/qm/qr?k=pps7-MRdJAo-63f39PBeFU4oVV4WiDrV&jump_from=webapi&authKey=qyEd6l0s9ZF7vWztbzmlMWO4n0cFfRDpNVAZaWdpdOTkoXzq/BPnYhKagD7+z3g9' target="_blank" className="link">
+                <Link href='http://yyit.top' target="_blank" className="link">
                 {Locale.Settings.Update.GoToUpdate}
               </Link>
             ) : (
